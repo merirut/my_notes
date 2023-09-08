@@ -1,0 +1,13 @@
+[project]
+name = "my_notes"
+version = "0.1.0"
+dependencies = [
+    "PyQt5"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+my_notes = ["*.ui"]
